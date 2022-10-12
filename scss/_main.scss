@@ -1,0 +1,122 @@
+/*Main*/
+/*Animacion Index*/
+
+#animation {
+    font-family: $fuente-proyecto;
+    color: $color-fuente;
+    animation-name: mianimacion;
+    animation-duration: 4s;
+    position: relative;
+  }
+  
+  @keyframes mianimacion {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+  
+    25% {
+      left: 40px;
+      top: 0px;
+    }
+  
+    50% {
+      left: 40px;
+      top: 40px;
+    }
+  
+    75% {
+      left: 0px;
+      top: 40px;
+    }
+  
+    100% {
+      left: 0px;
+      top: 0px;
+    }
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    max-height: 700px;
+    padding: 15px;
+  }
+  
+  /*Tarjetas*/
+  
+  #tarjetas {
+    color:$color-fuente;
+    font-family: $fuente-proyecto;
+  }
+  
+  .container-fluid .card {
+    font-family: $fuente-proyecto;
+    color: $color-fuente;
+    text-align: center;
+  
+    &:hover {
+      transform: translate(-15px);
+      box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  /*Formulario de Contacto*/
+  
+  #formularioContacto {
+    font-family: $fuente-proyecto;
+    color: $color-fuente;
+  }
+  
+  /*Ofertas-Galeria*/
+  
+  #galeria {
+    h1 {
+      font-family: $fuente-proyecto;
+      color: $color-fuente;
+    }
+  
+    .col-lg-4 {
+      padding: 25px;
+    }
+  
+    img {
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+  
+      &:hover {
+        border: 5px solid #f7f7f7;
+      }
+    }
+  
+    h2 {
+      font-family: $fuente-proyecto;
+      color: $color-fuente;
+    }
+  }
+  
+  /*Productos*/
+  
+  /*Quienes Somos*/
+  
+  #historia {
+    h1 {
+        font-family: $fuente-proyecto;
+        color: $color-fuente;
+      text-align: center;
+    }
+  
+    p {
+      font-family: $fuente-proyecto;
+      font-style: italic;
+      font-size: 35px;
+      font-weight: bold;
+      color: $color-fuente;
+      padding: 20px;
+    }
+  
+    img {
+      width: 100%;
+      padding: 25px;
+    }
+  }

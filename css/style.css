@@ -5,10 +5,11 @@
   box-sizing: border-box; }
 
 /*Header*/
-nav.navbar {
+header nav.navbar {
   font-family: "Roboto", sans-serif;
   font-size: large;
-  color: white; }
+  color: white;
+  background-color: #ff85ce !important; }
 
 /*Main*/
 /*Animacion Index*/
@@ -104,4 +105,5 @@ footer #alineacion {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   padding-top: 15px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  background-color: #ff85ce !important; }
